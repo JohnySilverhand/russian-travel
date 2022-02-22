@@ -1,0 +1,5 @@
+.place__first-column {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}

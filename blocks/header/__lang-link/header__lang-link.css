@@ -1,4 +1,9 @@
 .header__lang-link {
-	display: flex;
-	align-items: flex-end;
+  display: flex;
+  align-items: flex-end;
+  transition: opacity .6s linear;
+}
+
+.header__lang-link:hover {
+  opacity: .8;
 }

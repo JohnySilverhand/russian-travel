@@ -1,0 +1,6 @@
+.footer__row {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+}

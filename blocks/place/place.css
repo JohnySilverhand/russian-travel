@@ -1,0 +1,15 @@
+.place {
+  margin: 0 100px;
+  display: grid;
+  grid-template-columns: minmax(1fr, max-content) minmax(min-content, max-content);
+  row-gap: 48px;
+  column-gap: 40px;
+  grid-template-areas: 
+  "title website"
+   "image text";
+  padding-bottom: 80px;
+}
+
+.place:last-child {
+  padding-bottom: 0;
+}

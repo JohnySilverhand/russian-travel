@@ -1,0 +1,12 @@
+.intro__list {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding:0;
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #FFFFFF;
+  padding-top: 33px;
+}

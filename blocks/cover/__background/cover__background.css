@@ -1,0 +1,10 @@
+.cover__background {
+  margin: 0;
+  width: 100%;
+  justify-self: center;
+  grid-row: 3;
+  grid-column: 1;
+  z-index: 1;
+  background-image: url(../../../images/__background.png);
+  min-height: 740px;
+}
