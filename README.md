@@ -7,4 +7,4 @@
 Сетка основных блоков сайта построена с применением таких технологий, как flex и Grid. 
 
 ### Ссылка на проект 
-
+https://johnysilverhand.github.io/russian-travel/
