@@ -103,9 +103,16 @@
     width: calc(100% - 20px);
   }
 
+  .cover__overlay {
+    min-height: 640px;
+  }
+
+  .cover__overlay::before {
+    min-height: 640px;
+  }
+
   .cover__background {
-    width: 100%;
-    object-fit: contain;
+    min-height: 640px;
   }
 
   .cover__title {
@@ -206,6 +213,18 @@
   .place__paragraph {
     font-size: 16px;
     max-width: 352px;
+  }
+
+  .cover__overlay {
+    min-height: 480px;
+  }
+
+  .cover__overlay::before {
+    min-height: 480px;
+  }
+
+  .cover__background {
+    min-height: 480px;
   }
 
   .cover__title {
@@ -328,6 +347,21 @@
     flex-direction: column;
     padding-left: 16px;
     padding-right: 16px;
+  }
+
+  .cover__overlay {
+    min-height: 200px;
+  }
+
+  .cover__overlay::before {
+    min-height: 200px;
+  }
+
+  .cover__background {
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
   }
 
   .cover__title {
