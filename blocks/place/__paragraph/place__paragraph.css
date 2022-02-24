@@ -4,8 +4,11 @@
   line-height: 1.63;
   color: #FFFFFF;
   padding-top: 26px;
+  grid-area: text;
+  grid-column: 2;
+  grid-row: span 1;
 }
 
-.place__paragraph:first-child {
-  padding:0;
+.place__paragraph:first-of-type {
+  padding: 0;
 }

@@ -1,9 +1,5 @@
 .lead {
-  margin: 0;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows:repeat(5, auto);
-  box-sizing: border-box;
-  padding-right: 8.5%;
-  padding-left: 8.5%;
+  margin: 0 auto;
+  max-width: 985px;
+  padding-bottom: 92px;
 }

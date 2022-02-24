@@ -1,6 +1,7 @@
 .header {
-  margin:0;
+  margin:0 auto;
   display: flex;
   justify-content: space-between;
   padding-top: 28px;
+  max-width: 1184px;
 }

@@ -9,4 +9,6 @@
   font-weight: bold;
   color: #FFFFFF;
   padding-top: 33px;
+  width: 100%;
+  max-width: 690px;
 }

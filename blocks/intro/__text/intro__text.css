@@ -4,4 +4,6 @@
   line-height: 1.63;
   color: #FFFFFF;
   min-height: 208px;
+  width: 100%;
+  max-width: 690px;
 }

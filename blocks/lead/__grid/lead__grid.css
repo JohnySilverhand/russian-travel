@@ -1,0 +1,5 @@
+.lead__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-flow: repeat(2, minmax(min-content, max-content));
+}
