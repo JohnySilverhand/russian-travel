@@ -132,7 +132,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 601px) and (max-width: 768px) {
 
   .header {
     width: 93.8%;
@@ -238,7 +238,8 @@
   
 }
 
-@media (max-width: 320px) {
+
+@media (min-width: 320px) and (max-width: 600px) {
 
   .header {
     width: 90%;
@@ -269,6 +270,7 @@
 
   .lead {
     max-width: 320px;
+    width: 100%;
   }
 
   .lead__title {
