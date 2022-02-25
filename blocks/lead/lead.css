@@ -3,3 +3,21 @@
   width: 77%;
   padding-bottom: 92px;
 }
+
+@media (max-width: 1024px) {
+  .lead {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .lead {
+    width: 100%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .lead {
+    width: 100%;
+  }
+}

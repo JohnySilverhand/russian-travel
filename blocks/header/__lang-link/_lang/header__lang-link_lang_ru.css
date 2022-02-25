@@ -4,3 +4,10 @@
   color: #FFF;
   padding-right: 18px;
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .header__lang-link_lang_ru {
+    font-size: 18px;
+    line-height: 1.11;
+  }
+}

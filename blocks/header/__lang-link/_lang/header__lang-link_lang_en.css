@@ -3,3 +3,22 @@
   line-height: 28px;
   color: #FFF;
 }
+
+@media (max-width: 1024px) {
+  .header__lang-link_lang_en {
+    padding-right: 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__lang-link_lang_en {
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .header__lang-link_lang_en {
+    font-size: 18px;
+    line-height: 1.11;
+  }
+}

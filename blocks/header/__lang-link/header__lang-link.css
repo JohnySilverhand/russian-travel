@@ -7,3 +7,10 @@
 .header__lang-link:hover {
   opacity: .8;
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .header__lang-link {
+    height: 20px;
+    padding-top: 20px;
+  }
+}

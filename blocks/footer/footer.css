@@ -3,3 +3,24 @@
   padding-top: 92px;
   max-width: 1184px;
 }
+
+@media (max-width: 1024px) {
+  .footer {
+    width: 90.7%;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    width: 93.8%;
+  }
+  
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .footer {
+    width: 90%;
+    padding-top: 64px;
+    padding-bottom: 24px;
+  }
+}

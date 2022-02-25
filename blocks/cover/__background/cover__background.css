@@ -11,3 +11,24 @@
   background-position: center center;
   background-size: cover;
 }
+
+@media (max-width: 1024px) {
+  .cover__background {
+    min-height: 640px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover__background {
+    min-height: 480px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .cover__background {
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+}

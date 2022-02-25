@@ -3,3 +3,23 @@
   max-width: 985px;
   padding-bottom: 92px;
 }
+
+@media (max-width: 1024px) {
+  .intro {
+    max-width: 928px;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro {
+    padding-bottom: 88px;
+    width: 93.8%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .intro {
+    padding-bottom: 64px;
+    width: 90%;
+  }
+}
