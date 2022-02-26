@@ -4,3 +4,9 @@
   grid-row: 3;
   width: 100%;
 }
+
+@media (max-width: 1024px) {
+  .lead__image {
+    width: 100%;
+  }
+}
