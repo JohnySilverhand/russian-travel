@@ -20,11 +20,14 @@
 @media (max-width: 768px) {
   .lead__caption {
     padding-left: 24px;
+    width: 96%;
   }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
   .lead__caption {
     padding-left: 16px;
+    width: 80%;
+    margin: 0;
  }
 }
