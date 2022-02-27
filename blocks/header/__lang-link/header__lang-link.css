@@ -4,6 +4,7 @@
   line-height: 28px;
   color: #FFF;
   padding-right: 18px;
+  text-decoration: none;
 }
 
 .header__lang-link:nth-child(2) {
