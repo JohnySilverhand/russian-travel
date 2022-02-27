@@ -8,6 +8,7 @@
 @media (max-width: 1024px) {
   .cover {
     max-width: 1024px;
+    width: 100%;
   }
 }
 
